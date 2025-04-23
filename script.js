@@ -1,11 +1,11 @@
 const elements = document.querySelectorAll('.element');
 
-    elements.forEach(ele => {
-      if (ele.innerText.toLowerCase().includes('here')) {
-        ele.style.background = 'linear-gradient(to right, #007bff, #0056b3)';  // Blue
-        ele.style.color = 'white';
+    elements.forEach(element => {
+      if (element.innerText.toLowerCase().includes('here')) {
+        element.style.background = 'linear-gradient(to right, #007bff, #0056b3)';  
+        element.style.color = 'white';
       } else {
-        ele.style.backgroundColor = 'black';
-        ele.style.color = 'white';
+        element.style.backgroundColor = 'black';
+        element.style.color = 'white';
       }
     });
